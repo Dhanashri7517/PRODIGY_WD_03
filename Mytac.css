@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(https://media.istockphoto.com/id/168678735/photo/metal-tic-tac-toe-game-pieces.jpg?s=2048x2048&w=is&k=20&c=jlLgAHaz6tepKx5Vi5SNm30RP0XkS0k_VfU0pKLVIyY=);
+    /* background: url(https://c7.alamy.com/comp/2J73AK3/a-simple-school-seamless-pattern-with-a-tic-tac-toe-game-black-and-white-background-with-isolated-hand-drawn-doodle-outline-elements-vector-illustra-2J73AK3.jpg); */
+/* background: url(https://elements-resized.envatousercontent.com/elements-video-cover-images/files/230942995/Preview%20Image.jpg?w=1600&h=900&cf_fit=cover&q=85&format=auto&s=855dd8bf7ca896ac14ca183f8641aea4b8671ce4732e2a001d16af6b45a482e9); */
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1{
+    font-size: 30px;
+    margin-bottom: 100px;
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #69b5cf;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0d9df;
+    border: 3px solid #0b0909;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+#reset {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    background-color: #640ece;
+    color: white;
+}
+
+
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
